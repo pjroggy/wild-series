@@ -13,7 +13,7 @@ const app = require("./app/config");
 const port = process.env.APP_PORT;
 
 // route creation
-const welcome = (req,res)=>{
+const welcome = (req, res) => {
   res.send("Welcome to Wild Series !");
 };
 
